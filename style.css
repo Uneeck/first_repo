@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+	font-family: Lato;
+}
+
+.sekcja1 {
+	background: url("https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png"), linear-gradient(to right, #020d1e, #082759);
+	width: 100%;
+	height: 50vh;
+	clip-path: polygon(100% 0, 100% 100%, 77% 84%, 0 100%, 0 0);
+	-webkit-clip-path: polygon(100% 0, 100% 100%, 77% 84%, 0 100%, 0 0);
+	-moz-clip-path: polygon(100% 0, 100% 100%, 77% 84%, 0 100%, 0 0);
+	padding: 30px;
+	color: #fff;
+}
+
+.sek2 {
+	background: #fff;
+	width: 100%;
+	height: 50vh;
+	clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
+	padding: 30px;
+}
+
+.sekcja3 {
+	width: 100%;
+	border-bottom: 50vh solid red;
+	border-right: 50vw solid transparent;
+}
+
+
+
